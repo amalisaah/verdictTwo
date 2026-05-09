@@ -4,7 +4,8 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
 const TOTAL_STEPS = 3;
-const WA_NUMBER = "233243953617"; // +233 24 395 3619
+// const WA_NUMBER = "233243953617"; // +233 24 395 3619
+const WA_NUMBER = "233249395102";
 
 type Status = "idle" | "sending" | "success" | "email-error";
 
@@ -41,7 +42,7 @@ export default function QuoteForm() {
 
   function buildWhatsAppMessage(data: FormData) {
     return [
-      "📸 *New Enquiry — verdictTwo Photography*",
+      "📸 *New Enquiry — Verdict Photography*",
       "─────────────────────",
       `*Name:* ${data.name}`,
       `*Email:* ${data.email}`,
