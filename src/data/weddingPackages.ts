@@ -116,8 +116,8 @@ export const WEDDING_PACKAGES: WeddingPackage[] = [
       'Online gallery + 1-year cloud backup',
     ],
     // TODO(pricing): flyer copy you extracted reads GHC 1150 — confirm vs GHC 11,500 before go-live.
-    priceLabel: 'GHC 1150',
-    priceAmountGhc: 1150,
+    priceLabel: 'GHC 11500',
+    priceAmountGhc: 11500,
     priceBadgeVariant: 'gold',
     images: {
       hero: "/assets/wedding-packages/couple.jpg",

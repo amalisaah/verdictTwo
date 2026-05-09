@@ -38,7 +38,7 @@ export default function Header() {
     <header className={`site-header${isScrolled ? ' is-scrolled' : ''}`} id="top">
       <div className="header-inner">
         <a href="#top" className="logo">
-          Verdict <span>Two</span>
+          Verdict <span>Photography</span>
         </a>
         <button
           className={`nav-toggle${menuOpen ? ' is-open' : ''}`}

@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-col">
           <div className="logo">
-            Verdict <span>Two</span>
+            Verdict <span>Photography</span>
           </div>
           <p>
             Experienced photographers for the moments you cannot reshoot. Based
@@ -44,12 +44,12 @@ export default function Footer() {
       </div>
       <div className="container footer-bottom">
         <p className="mb-0">
-          © {year} Verdict Two Photography. Demo content inspired by{' '}
-          <a href="https://yazzenphotography.com.au/" rel="noopener">Yazzen Photography</a>.
-          Stock photos from{' '}
+          © {year} Verdict Photography. Website by{' '}
+          <a href="https://personal.tnasgroup.com/" rel="noopener" target="_blank">codersaah</a>.
+          {/* Stock photos from{' '}
           <a href="https://www.pexels.com/" rel="noopener">Pexels</a>{' '}
           (wedding &amp; celebration imagery; hero and several frames feature Black
-          couples and African wedding traditions).
+          couples and African wedding traditions). */}
         </p>
       </div>
     </footer>

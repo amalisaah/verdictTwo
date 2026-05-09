@@ -3,7 +3,7 @@ import './globals.css';
 import Providers from '@/components/Providers';
 
 export const metadata: Metadata = {
-  title: 'Verdict Two Photography — Weddings & celebrations',
+  title: 'Verdict Photography — Weddings & celebrations',
   description:
     'Award-style wedding photography with all-day coverage, pre-wedding sessions, and destination availability. Sydney-inspired elegance.',
 };

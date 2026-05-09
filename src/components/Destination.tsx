@@ -1,4 +1,6 @@
 export default function Destination() {
+
+  // TODO: Swap this for actual images from client.
   return (
     <section className="section section--cream">
       <div className="container dest">
