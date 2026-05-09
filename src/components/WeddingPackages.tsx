@@ -16,15 +16,15 @@ function PackageHero({ pkg }: { pkg: WeddingPackage }) {
   const alt = `${pkg.shortName} package — placeholder imagery`;
   // TODO(assets): replace with shoot-specific assets per tier (see weddingPackages.ts).
 
-  if (pkg.tier === 'gold') {
+  if (pkg.tier === 'gold'&& pkg.images.heroExtra?.length) {
     return (
       <div className="package-card__hero-strip package-card__hero-strip--triple">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={pkg.images.hero} alt="" width={400} height={533} loading="lazy" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={pkg.images.hero} alt="" width={400} height={533} loading="lazy" />
+        <img src={pkg.images.heroExtra[0]} alt="" width={400} height={533} loading="lazy" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={pkg.images.hero} alt="" width={400} height={533} loading="lazy" />
+        <img src={pkg.images.heroExtra[1]} alt="" width={400} height={533} loading="lazy" />
       </div>
     );
   }

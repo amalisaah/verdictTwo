@@ -962,6 +962,7 @@ p:last-child {
 .package-card__hero-strip {
   display: grid;
   background: #e8e4de;
+  overflow: hidden;
 }
 
 .package-card__hero-strip img {
@@ -1090,6 +1091,8 @@ p:last-child {
   overflow: hidden;
   aspect-ratio: 3 / 4;
   background: #ddd;
+  /* border: 1px solid var(--border); */
+  /* border-radius: 100px; */
 }
 
 .package-card__accent img {

@@ -34,10 +34,6 @@ export type WeddingPackage = {
 };
 
 // TODO(assets): swap placeholder URLs for final photography; add domains to next.config `images.remotePatterns` if using `next/image`.
-const PLACEHOLDER_HERO =
-  'https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80';
-const PLACEHOLDER_PORTRAIT =
-  'https://images.unsplash.com/photo-1522673606160-de49d0b1e9d4?w=800&q=80';
 
 export const WEDDING_PACKAGES: WeddingPackage[] = [
   {
@@ -61,8 +57,8 @@ export const WEDDING_PACKAGES: WeddingPackage[] = [
     priceAmountGhc: 4800,
     priceBadgeVariant: 'red',
     images: {
-      hero: PLACEHOLDER_HERO,
-      accent: PLACEHOLDER_PORTRAIT,
+      hero: "/assets/wedding-packages/bride-2.jpg",
+      accent: "/assets/wedding-packages/rings.jpg",
     },
   },
   {
@@ -88,8 +84,12 @@ export const WEDDING_PACKAGES: WeddingPackage[] = [
     priceAmountGhc: 8000,
     priceBadgeVariant: 'gold',
     images: {
-      hero: PLACEHOLDER_HERO,
-      accent: PLACEHOLDER_PORTRAIT,
+      hero: "/assets/wedding-packages/couple-black.jpg",
+      accent: "/assets/wedding-packages/shoes.jpg",
+      heroExtra: [
+        "/assets/wedding-packages/couple-black-2.jpg",
+        "/assets/wedding-packages/couple-black-3.jpg",
+      ],
     },
   },
   {
@@ -120,9 +120,9 @@ export const WEDDING_PACKAGES: WeddingPackage[] = [
     priceAmountGhc: 1150,
     priceBadgeVariant: 'gold',
     images: {
-      hero: PLACEHOLDER_HERO,
-      accent: PLACEHOLDER_PORTRAIT,
-      heroExtra: [PLACEHOLDER_PORTRAIT],
+      hero: "/assets/wedding-packages/couple.jpg",
+      accent: "/assets/wedding-packages/female-shoe.jpg",
+      heroExtra: ["/assets/wedding-packages/bride.jpg"],
     },
   },
 ];
