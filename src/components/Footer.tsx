@@ -28,6 +28,7 @@ export default function Footer() {
           <ul>
             <li><a href="#work">Our work</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#packages">Packages</a></li>
             <li><a href="#quote">Free quote</a></li>
             <li><a href="#" onClick={handleContact}>Contact</a></li>
           </ul>

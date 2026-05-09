@@ -55,6 +55,7 @@ export default function Header() {
           <ul className={`nav-desktop${menuOpen ? ' is-open' : ''}`}>
             <li><a href="#work" onClick={closeMenu}>Our work</a></li>
             <li><a href="#gallery" onClick={closeMenu}>Gallery</a></li>
+            <li><a href="#packages" onClick={closeMenu}>Packages</a></li>
             <li><a href="#reviews" onClick={closeMenu}>Reviews</a></li>
             <li><a href="#quote" onClick={closeMenu}>Free quote</a></li>
             <li><a href="#" onClick={handleContact}>Contact</a></li>

@@ -6,6 +6,7 @@ import Features from '@/components/Features';
 import CtaBanner from '@/components/CtaBanner';
 import Gallery from '@/components/Gallery';
 import Services from '@/components/Services';
+import WeddingPackages from '@/components/WeddingPackages';
 import Destination from '@/components/Destination';
 import QuoteForm from '@/components/QuoteForm';
 import Reviews from '@/components/Reviews';
@@ -23,6 +24,7 @@ export default function Home() {
       <CtaBanner />
       <Gallery />
       <Services />
+      <WeddingPackages />
       <Destination />
       <QuoteForm />
       <Reviews />

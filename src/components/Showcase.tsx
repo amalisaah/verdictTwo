@@ -29,7 +29,7 @@ export default function Showcase() {
             <picture>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/assets/wedding-portrait-3.jpg"
+                src="/assets/wedding-portrait-1.jpg"
                 alt="Wedding portrait"
                 width={1200}
                 height={1600}
